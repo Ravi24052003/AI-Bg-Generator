@@ -1,0 +1,14 @@
+import React from 'react'
+
+const HeroSection = () => {
+  return (
+    <section className="hero flex items-center justify-center h-screen"  style={{ backgroundImage: "url('https://source.unsplash.com/featured/1280x720/?product-catalog')" }}>
+    <div className="text-center">
+      <h1 className="text-4xl font-bold text-white mb-4">Beautiful Backgrounds for Product Catalogs</h1>
+      <a href="#" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Get Started</a>
+    </div>
+  </section>
+  )
+}
+
+export default HeroSection
