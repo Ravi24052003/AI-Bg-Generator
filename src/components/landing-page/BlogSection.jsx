@@ -5,7 +5,9 @@ const BlogSection = () => {
     <section className="blog py-8">
     <div className="container mx-auto px-4">
       <h2 className="text-3xl font-bold mb-4">Recent Blog Posts</h2>
-      <div className="grid grid-cols-3 gap-8">
+
+      <div className="grid grid-cols-3 gap-8 max-[768px]:flex max-[768px]:flex-col ">
+
         <div className="blog-card bg-white rounded shadow-lg overflow-hidden">
           <div className="blog-image">
             <img
@@ -22,6 +24,8 @@ const BlogSection = () => {
             <a href="#" className="text-blue-500 hover:underline">Read More</a>
           </div>
         </div>
+
+
         <div className="blog-card bg-white rounded shadow-lg overflow-hidden">
           <div className="blog-image">
             <img
@@ -38,6 +42,8 @@ const BlogSection = () => {
             <a href="#" className="text-blue-500 hover:underline">Read More</a>
           </div>
         </div>
+
+
         <div className="blog-card bg-white rounded shadow-lg overflow-hidden">
           <div className="blog-image">
             <img
@@ -54,6 +60,8 @@ const BlogSection = () => {
             <a href="#" className="text-blue-500 hover:underline">Read More</a>
           </div>
         </div>
+
+        
       </div>
     </div>
   </section>

@@ -10,9 +10,7 @@ const Footer = () => {
           <p className="text-gray-400">A product by Example Corp.</p>
         </div>
         <div className="social-icons">
-          <a href="#" className="text-white hover:text-gray-300"><i className="fab fa-twitter"></i></a>
           <a href="#" className="text-white hover:text-gray-300"><i className="fab fa-linkedin-in"></i></a>
-          <a href="#" className="text-white hover:text-gray-300"><i className="fab fa-github"></i></a>
         </div>
       </div>
     </div>
