@@ -6,7 +6,7 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import LandingPage from './pages/LandingPage.jsx'
 import FeatureSection from './components/landing-page/FeatureSection.jsx'
 import BlogSection from './components/landing-page/BlogSection.jsx'
-
+import FileUpload from "./pages/FileUpload.jsx"
 
 
 
@@ -16,6 +16,7 @@ const router = createBrowserRouter(
     <Route path='' element = {<LandingPage />} />
     <Route path='FeatureSection' element = {<FeatureSection />} />
     <Route path='BlogSection' element = {<BlogSection />} />
+    <Route path='file-upload' element = {<FileUpload />} />
      <Route />
     </Route>
   )
